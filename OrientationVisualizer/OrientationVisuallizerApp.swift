@@ -3,10 +3,11 @@
 //
 import SwiftUI
 
-struct OrientationVisualizer: View {
+struct OrientationVisualizer: App {
     var body: some Scene {
         WindowGroup {
             OrientationRootView()
         }
-        
     }
+}
+    
